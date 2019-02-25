@@ -1,6 +1,6 @@
 ---
 slug: "/third-post"
-date: "2018-02-29"
+date: "2018-03-03"
 title: "Third Blog Post!? Whoa!"
 ---
 # Another one!

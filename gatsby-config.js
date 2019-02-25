@@ -5,6 +5,7 @@ module.exports = {
     author: `@arielbk`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -37,6 +38,6 @@ module.exports = {
         name: 'posts',
       }
     },
-    'gatsby-transformer-remark',
+    'gatsby-transformer-remark'
   ],
 }
