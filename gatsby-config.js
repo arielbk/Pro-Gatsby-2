@@ -3,10 +3,12 @@ module.exports = {
     title: `My Blog`,
     description: `This is my blog and its description`,
     author: `@arielbk`,
+    siteUrl: 'https://jovial-dubinsky-91f8b0.netlify.com'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -48,6 +50,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-netlify'
   ],
 }
