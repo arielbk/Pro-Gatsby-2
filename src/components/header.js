@@ -7,7 +7,7 @@ import logo from '../images/command.svg';
 
 const HeaderWrapper = styled.header`
   background: #524763;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   img {
     margin-bottom: 0;
   }
